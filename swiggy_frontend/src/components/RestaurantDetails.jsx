@@ -17,7 +17,7 @@ function RestaurantDetails() {
         setRestInfoDetails(restInfo.data.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards[12].card.card.itemCards);
         console.log(restInfo);
         }
-        calling();
+        calling()
     }, [id]);
 
     const dispatch = useDispatch();
